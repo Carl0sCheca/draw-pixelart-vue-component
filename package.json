@@ -7,7 +7,7 @@
   "main": "./dist/vue-drawapp-component.umd.cjs",
   "module": "./dist/vue-drawapp-component.js",
   "scripts": {
-    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly"
+    "build": "vite build && vue-tsc --project tsconfig.export.json --declaration --emitDeclarationOnly"
   },
   "dependencies": {
     "draw-pixelart-app": "github:Carl0sCheca/draw-pixelart-app",
