@@ -1,0 +1,23 @@
+{
+  "name": "vue-drawapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "types": "./dist/main.d.ts",
+  "main": "./dist/vue-drawapp-component.umd.cjs",
+  "module": "./dist/vue-drawapp-component.js",
+  "scripts": {
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "draw-pixelart-app": "github:Carl0sCheca/draw-pixelart-app",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
