@@ -35,7 +35,7 @@ import { DrawApp } from "vue-drawapp";
 <template>
   <div class="main">
     <DrawApp ref="drawApp" />
-    <button @click="saveImage">boton</button>
+    <button @click="saveImage">Save image</button>
   </div>
 </template>
 
