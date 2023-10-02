@@ -60,7 +60,7 @@ const saveImage = () => {
 
 ## Avaliable properties
 
-| Method      | Description                                            |
+| Property    | Description                                            |
 | ----------- | ------------------------------------------------------ |
 | `id`        | Canvas id, default value: `drawApp`                    |
 | `gridSize`  | Number of pixels, default value: `32` (32x32)          |
