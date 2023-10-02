@@ -18,7 +18,7 @@
         showGrid: true,
     });
 
-    let drawApp = ref<DrawApp | undefined>(undefined)
+    let drawApp: Ref<DrawApp | undefined> = ref(undefined)
 
     onMounted(() => {
         drawApp.value = new DrawApp((document.getElementById(props.id) as HTMLCanvasElement), {

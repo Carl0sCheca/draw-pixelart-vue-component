@@ -5,7 +5,7 @@ https://drawapp.demos.carl0scheca.com/
 # Install
 
 ```bash
-npm install https://github.com/Carl0sCheca/draw-pixelart-vue-component
+npm install --save-dev https://github.com/Carl0sCheca/draw-pixelart-vue-component
 ```
 
 # Usage
