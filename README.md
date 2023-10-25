@@ -58,7 +58,7 @@ const saveImage = () => {
 </style>
 ```
 
-## Avaliable properties
+## Available properties
 
 | Property    | Description                                            |
 | ----------- | ------------------------------------------------------ |
@@ -67,7 +67,7 @@ const saveImage = () => {
 | `gridColor` | Crosshair color, default value: `000` (black)          |
 | `showGrid`  | Show grid when canvas is loaded, default value: `true` |
 
-## Avaliable methods
+## Available methods
 
 | Method                       | Description                               |
 | ---------------------------- | ----------------------------------------- |
